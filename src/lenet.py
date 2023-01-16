@@ -116,7 +116,6 @@ def train_ch6(net, train_iter, test_iter, num_epochs, lr, device):
 lr, num_epochs = 0.9, 10
 train_ch6(net, train_iter, test_iter, num_epochs, lr, d2l.try_gpu())
 
-import torch.utils.model_zoo as model_zoo
 import torch.onnx
 
 net.eval()
